@@ -1,0 +1,27 @@
+{
+	"name": "node-db4-project",
+	"version": "1.0.0",
+	"description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+	"main": "index.js",
+	"scripts": {
+		"server": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dudeicle/node-db4-project-NEW.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Dudeicle/node-db4-project-NEW/issues"
+	},
+	"homepage": "https://github.com/Dudeicle/node-db4-project-NEW#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"helmet": "^4.1.0",
+		"knex": "^0.21.5",
+		"nodemon": "^2.0.4",
+		"sqlite3": "^5.0.0"
+	}
+}
